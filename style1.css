@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0%;
+
+}
+
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(5, 5, 5);
+}
+
+.menu ul{
+    list-style: none;
+    position: relative;
+}
+
+.menu ul li{
+    width: 150px;
+    float: right;
+}
+
+.menu a{
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(5, 5, 5);
+    color: #fff;
+
+}
+
+.menu ul ul{
+    position: absolute;
+    visibility: hidden;
+}
+
+.menu ul li:hover ul{
+    visibility: visible;
+    display: inline-block;
+}
+
+.menu a:hover{
+    background-color: #ffffff;
+    color: #555;
+}
+
+.menu ul ul li{
+    float: none;
+    border-bottom: solid 1px #ccc;
+}
+
+.menu ul ul li a{
+    background-color: rgb(5, 5, 5);
+}
+
+.fotodecapa {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 727px;
+    height: 518px;
+}
+
+.hiking {
+    display: block;
+    margin-top: 90px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+.news {
+    text-align: left;
+    font-size: 18.8px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    margin-left: 290px;
+    margin-right: 290px; 
+    color: black;
+  
+}
+
+.news h1 {
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    margin-bottom: 100px;
+}
+
+.news h2 {
+    line-height: 30px ;
+    text-align: center;
+    display: block;
+    margin-bottom: 60px;
+}
+
+.news h3 {
+    text-align: center;
+}
+
+.news h4 {
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.news p {
+    line-height: 30px;
+}
+
+.national {
+    width: 80%;
+    margin: auto;
+
+}
+
+.national img {
+    margin-left: 150px;
+    margin-top: 40px;
+    margin-bottom: 60px;   
+    width: 60%;
+}
+
+.national li {
+    line-height: 24px;
+}
+
+.national h1 {
+    margin-top: 120px;
+    margin-bottom: 60px;
+    margin-left: 150px;
+}
+
+.national li {
+    margin-left: 150px;
+
+}
+
+.national ul {
+    margin-bottom: 100px;
+}
+
+.national h2 {
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+
+.national p {
+    margin-left: 150px;
+    width: 60%;
+}
